@@ -1,0 +1,19 @@
+{
+    "name": "bartosz-maciaszek/symfony-smart-response",
+    "description": "Accept header aware response converting library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartosz Maciaszek",
+            "email": "bartosz@maciaszek.name"
+        }
+    ],
+    "require": {
+        "symfony/http-kernel": "~2.3|~3.0|~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "BM\\SmartResponse": "src/"
+        }
+    }
+}
